@@ -11,8 +11,8 @@ resource "yandex_compute_instance" "vm-1" {
   name = "terraform1"
 
   resources {
-    cores  = 2
-    memory = 3
+    cores  = 4
+    memory = 4
   }
 
   boot_disk {
